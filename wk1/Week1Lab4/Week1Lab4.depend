@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1504255785 source:c:\users\myocardium\desktop\new stuff\week1lab4\main.c
+	<stdio.h>
+	<stdlib.h>
+
