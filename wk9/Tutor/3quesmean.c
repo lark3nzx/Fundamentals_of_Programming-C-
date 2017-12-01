@@ -1,0 +1,25 @@
+#include<stdio.h>
+//Xdat = Number of data
+//รับค่า จำนวนข้อมูล แล้ว รับค่าตัวเลข บวกไปเรื่อยๆ แล้วคิด mean เฉลี่ยตอนจบ
+float divide(float a,float b)
+{
+  float result;
+  result = a/b;
+  return result;
+}
+void main()
+{
+float a,i,Xdat,func;
+float Asum=0;
+printf("Please enter #Xdata: ");
+scanf("%f",&Xdat);
+for (i = 0; i < Xdat; i++)
+{
+printf("Enter a number : ");
+scanf("%f",&a);
+Asum=Asum+a;
+printf("AccumulatedSum: %-.3f\n\n",Asum);
+}
+func=divide(Asum,i);
+printf("mean:%-.3f", func);
+}
